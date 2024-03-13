@@ -61,12 +61,14 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  background: #f5ba13;
+  color: #fff;
   border: none;
   width: 36px;
   height: 36px;
   cursor: pointer;
   outline: none;
+  border-radius: 50%;
 }
 
 form.create-note {

@@ -5,7 +5,6 @@ import Zoom from '@mui/material/Zoom';
 
 function CreateArea(props) {
   const [note,setNote] =  new useState({title:"",content:""});
-  // const [content,setContent] = new useState("");
   const [isZoom,setIsZoom] = new useState(false);
 
 
@@ -24,7 +23,6 @@ function CreateArea(props) {
   }
 
   function submitNote(event){
-    // const newItem = {t: title,c: content};
     props.addItem(note);
     setNote({
       title:"",
